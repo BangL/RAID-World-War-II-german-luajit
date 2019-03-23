@@ -1,9 +1,9 @@
 SubtitlesTweakData = SubtitlesTweakData or class()
 
 function SubtitlesTweakData:init()
-	self:_init_intro_video()
-	self:_init_mission_brief_b2()
-	self:_init_mission_brief_b4()
+	self:_init_intro_video_censored()
+	self:_init_mission_brief_b2_censored()
+	self:_init_mission_brief_b4_censored()
 	self:_init_mission_brief_a1()
 	self:_init_mission_brief_a2()
 	self:_init_mission_brief_a3()
@@ -12,31 +12,31 @@ function SubtitlesTweakData:init()
 	self:_init_mission_brief_b1()
 	self:_init_mission_brief_b3()
 	self:_init_mission_brief_b5()
-	self:_init_debrief_success_1()
-	self:_init_debrief_success_2()
-	self:_init_debrief_success_3()
-	self:_init_debrief_success_4()
-	self:_init_debrief_success_5()
-	self:_init_debrief_success_6()
-	self:_init_debrief_success_7()
-	self:_init_debrief_success_8()
-	self:_init_debrief_success_9()
-	self:_init_debrief_success_10()
-	self:_init_debrief_success_11()
-	self:_init_debrief_success_12()
-	self:_init_debrief_success_13()
-	self:_init_debrief_success_14()
-	self:_init_debrief_failure_1()
-	self:_init_debrief_failure_2()
-	self:_init_debrief_failure_3()
-	self:_init_debrief_failure_4()
-	self:_init_debrief_failure_5()
-	self:_init_debrief_failure_6()
-	self:_init_debrief_failure_7()
-	self:_init_debrief_failure_8()
-	self:_init_debrief_failure_9()
-	self:_init_debrief_failure_10()
-	self:_init_debrief_failure_11()
+	self:_init_debrief_success_censored_1()
+	self:_init_debrief_success_censored_2()
+	self:_init_debrief_success_censored_3()
+	self:_init_debrief_success_censored_4()
+	self:_init_debrief_success_censored_5()
+	self:_init_debrief_success_censored_6()
+	self:_init_debrief_success_censored_7()
+	self:_init_debrief_success_censored_8()
+	self:_init_debrief_success_censored_9()
+	self:_init_debrief_success_censored_10()
+	self:_init_debrief_success_censored_11()
+	self:_init_debrief_success_censored_12()
+	self:_init_debrief_success_censored_13()
+	self:_init_debrief_success_censored_14()
+	self:_init_debrief_failure_censored_1()
+	self:_init_debrief_failure_censored_2()
+	self:_init_debrief_failure_censored_3()
+	self:_init_debrief_failure_censored_4()
+	self:_init_debrief_failure_censored_5()
+	self:_init_debrief_failure_censored_6()
+	self:_init_debrief_failure_censored_7()
+	self:_init_debrief_failure_censored_8()
+	self:_init_debrief_failure_censored_9()
+	self:_init_debrief_failure_censored_10()
+	self:_init_debrief_failure_censored_11()
 end
 
 function SubtitlesTweakData:get_subtitle(movie, time)
@@ -59,8 +59,8 @@ function SubtitlesTweakData:get_subtitle(movie, time)
 	return ""
 end
 
-function SubtitlesTweakData:_init_intro_video()
-	self.01_intro_v014 = {
+function SubtitlesTweakData:_init_intro_video_censored()
+	self.01_intro_g_v014 = {
 		{
 			id = "01_intro_001",
 			time = 6,
@@ -74,7 +74,7 @@ function SubtitlesTweakData:_init_intro_video()
 		{
 			id = "01_intro_003",
 			time = 13,
-			length = 5
+			length = 4
 		},
 		{
 			id = "01_intro_004",
@@ -144,22 +144,22 @@ function SubtitlesTweakData:_init_intro_video()
 	}
 end
 
-function SubtitlesTweakData:_init_mission_brief_b2()
-	self.02_mission_brief_b2_assassination_v004 = {
+function SubtitlesTweakData:_init_mission_brief_b2_censored()
+	self.02_mission_brief_b2_assassination_g_v004 = {
 		{
-			id = "b2_assassination_001",
+			id = "b2_assassination_g_001",
 			time = 1,
 			length = 8
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_mission_brief_b4()
-	self["02_mission_brief_b4_steal-valuables_cause-carnage_v004"] = {
+function SubtitlesTweakData:_init_mission_brief_b4_censored()
+	self["02_mission_brief_b4_steal-valuables_cause-carnage_g_v004"] = {
 		{
-			id = "b4_steal-valuables_cause-carnage_001",
+			id = "b4_steal-valuables_cause-carnage_g_001",
 			time = 1,
-			length = 10
+			length = 8
 		}
 	}
 end
@@ -244,165 +244,190 @@ function SubtitlesTweakData:_init_mission_brief_b5()
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_1()
-	self.s_01_throws_himself_v007 = {
+function SubtitlesTweakData:_init_debrief_success_censored_1()
+	self.sg_01_throws_himself_v007 = {
 		{
-			id = "s_01_throws_himself_001",
-			time = 9.05,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_success_2()
-	self.s_02_chickens_out_v007 = {
-		{
-			id = "S_02_Chickens_out_001",
+			id = "SG_01_Throws_himself_001",
 			time = 1,
 			length = 4
 		},
 		{
-			id = "S_02_Chickens_out_002",
-			time = 3.02,
+			id = "SG_01_Throws_himself_002",
+			time = 7.21,
 			length = 4
 		},
 		{
-			id = "S_02_Chickens_out_003",
-			time = 20.07,
+			id = "SG_01_Throws_himself_003",
+			time = 8.19,
+			length = 4
+		},
+		{
+			id = "SG_01_Throws_himself_004",
+			time = 10.13,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_3()
-	self.s_03_salutes_v006 = {
+function SubtitlesTweakData:_init_debrief_success_censored_2()
+	self.sg_02_chickens_out_v007 = {
 		{
-			id = "S_03_salutes_001",
+			id = "SG_02_chickens_out_001",
+			time = 1.2,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_3()
+	self.sg_03_salutes_v006 = {
+		{
+			id = "SG_03_salutes_001",
+			time = 1.1,
+			length = 2
+		},
+		{
+			id = "SG_03_salutes_002",
+			time = 2.11,
+			length = 4
+		},
+		{
+			id = "SG_03_salutes_003",
+			time = 5,
+			length = 4
+		},
+		{
+			id = "SG_03_salutes_004",
+			time = 9.12,
+			length = 4
+		},
+		{
+			id = "SG_03_salutes_005",
+			time = 12.16,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_4()
+	self.sg_04_shoots_and_miss_v006 = {
+		{
+			id = "SG_03_salutes_001",
+			time = 1.1,
+			length = 1.1
+		},
+		{
+			id = "SG_03_salutes_001",
+			time = 1,
+			length = 1.1
+		},
+		{
+			id = "SG_03_salutes_001",
+			time = 1,
+			length = 1.1
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_5()
+	self.sg_05_crunches_bones_v005 = {
+		{
+			id = "SG_05_Crunches_bones_001",
 			time = 1,
 			length = 4
 		},
 		{
-			id = "S_03_salutes_002",
-			time = 16,
+			id = "SG_05_Crunches_bones_002",
+			time = 5.05,
 			length = 4
 		},
 		{
-			id = "S_03_salutes_003",
-			time = 18.1,
+			id = "SG_05_Crunches_bones_003",
+			time = 16.02,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_4()
-	self.s_04_shoots_and_miss_v008 = {
+function SubtitlesTweakData:_init_debrief_success_censored_6()
+	self.sg_06_plays_with_tin_men_v005 = {
 		{
-			id = "S_04_Shoots_and_miss_001",
+			id = "SG_06_plays_with_tin_men_001",
+			time = 1.08,
+			length = 4
+		},
+		{
+			id = "SG_06_plays_with_tin_men_002",
+			time = 8.2,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_7()
+	self.sg_07_cries_tannenbaum_v005 = {}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_8()
+	self.sg_08_chess_v005 = {
+		{
+			id = "SG_08_chess_001",
+			time = 5.15,
+			length = 4
+		},
+		{
+			id = "SG_08_chess_002",
+			time = 14.04,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_success_censored_9()
+	self.sg_09_is_having_a_reverie_v005 = {
+		{
+			id = "SG_09_is_having_a_reverie_001",
 			time = 1,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_success_5()
-	self.s_05_crunches_bones_v006 = {
+			length = 1
+		},
 		{
-			id = "S_05_Crunches_bones_001",
+			id = "SG_09_is_having_a_reverie_002",
 			time = 1,
-			length = 4
+			length = 1.2
 		},
 		{
-			id = "S_05_Crunches_bones_002",
-			time = 3.2,
-			length = 4
-		},
-		{
-			id = "S_05_Crunches_bones_003",
-			time = 7.01,
-			length = 4
-		},
-		{
-			id = "S_05_Crunches_bones_004",
-			time = 17,
+			id = "SG_09_is_having_a_reverie_003",
+			time = 17.01,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_6()
-	self.s_06_plays_with_tin_men_v006 = {
-		{
-			id = "S_06_Plays_with_tin_men_001",
-			time = 3.14,
-			length = 4
-		},
-		{
-			id = "S_06_Plays_with_tin_men_002",
-			time = 8.13,
-			length = 4
-		},
-		{
-			id = "S_06_Plays_with_tin_men_003",
-			time = 13.21,
-			length = 4
-		}
-	}
+function SubtitlesTweakData:_init_debrief_success_censored_10()
+	self.sg_10_colours_a_map_v005 = {}
 end
 
-function SubtitlesTweakData:_init_debrief_success_7()
-	self.s_07_cries_tannenbaum_v007 = {}
-end
-
-function SubtitlesTweakData:_init_debrief_success_8()
-	self.s_08_chess_v008 = {
+function SubtitlesTweakData:_init_debrief_success_censored_11()
+	self.sg_11_swears_v005 = {
 		{
-			id = "S_08_Chess_001",
-			time = 4.07,
-			length = 4
-		},
-		{
-			id = "S_08_Chess_002",
-			time = 15.21,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_success_9()
-	self.s_09_is_having_a_reverie_v007 = {
-		{
-			id = "S_09_is_having_a_reverie_001",
+			id = "SG_11_swears_001",
 			time = 1,
 			length = 4
 		},
 		{
-			id = "S_09_is_having_a_reverie_002",
-			time = 2.08,
+			id = "SG_11_swears_002",
+			time = 7.12,
 			length = 4
 		},
 		{
-			id = "S_09_is_having_a_reverie_003",
-			time = 17.18,
+			id = "SG_11_swears_003",
+			time = 9.15,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_10()
-	self.s_10_colours_a_map_v009 = {}
-end
-
-function SubtitlesTweakData:_init_debrief_success_11()
-	self.s_11_swears_v005 = {
-		{
-			id = "S_11_swears_001",
-			time = 8.03,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_success_12()
+function SubtitlesTweakData:_init_debrief_success_censored_12()
 	self.s_12_plays_with_tanks_v005 = {
 		{
 			id = "S_12_plays_with_tanks_001",
@@ -412,8 +437,8 @@ function SubtitlesTweakData:_init_debrief_success_12()
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_13()
-	self.s_13_flips_a_table_v007 = {
+function SubtitlesTweakData:_init_debrief_success_censored_13()
+	self.s_13_flips_a_table_v005 = {
 		{
 			id = "S_13_flips_a_table_001",
 			time = 10.22,
@@ -427,7 +452,7 @@ function SubtitlesTweakData:_init_debrief_success_13()
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_success_14()
+function SubtitlesTweakData:_init_debrief_success_censored_14()
 	self.s_14_moustache_v006 = {
 		{
 			id = "S_14_moustache_001",
@@ -437,123 +462,169 @@ function SubtitlesTweakData:_init_debrief_success_14()
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_failure_1()
-	self.f_01_edelweiss_v007 = {}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_2()
-	self.f_02_sizzles_v007 = {}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_3()
-	self.f_03_toasts_v008 = {
+function SubtitlesTweakData:_init_debrief_failure_censored_1()
+	self.fg_01_edelweiss_v007 = {
 		{
-			id = "F_03_toasts_001",
-			time = 5.04,
+			id = "FG_01_edelweiss_001",
+			time = 15.2,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_failure_4()
-	self.f_04_misunderstands_v008 = {
+function SubtitlesTweakData:_init_debrief_failure_censored_2()
+	self.fg_02_sizzles_v007 = {}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_3()
+	self.fg_03_toasts_v007 = {
 		{
-			id = "F_04_misunderstands_001",
+			id = "FG_03_toasts_001",
+			time = 5.03,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_4()
+	self.fg_04_misunderstands_v006 = {
+		{
+			id = "FG_04_misunderstands_001",
+			time = 1,
+			length = 4
+		},
+		{
+			id = "FG_04_misunderstands_002",
+			time = 4.06,
+			length = 4
+		},
+		{
+			id = "FG_04_misunderstands_003",
+			time = 5.17,
+			length = 4
+		},
+		{
+			id = "FG_04_misunderstands_004",
+			time = 10.04,
+			length = 4
+		},
+		{
+			id = "FG_04_misunderstands_005",
+			time = 12.2,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_5()
+	self.fg_05_hugs_the_world_v007 = {
+		{
+			id = "FG_05_hugs_the_world_001",
+			time = 1,
+			length = 4
+		},
+		{
+			id = "FG_05_hugs_the_world_002",
+			time = 13.11,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_6()
+	self.fg_06_tin_soldiers_v006 = {
+		{
+			id = "FG_06_tin_soldiers_001",
+			time = 1.04,
+			length = 4
+		},
+		{
+			id = "FG_06_tin_soldiers_002",
+			time = 13.11,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_7()
+	self.fg_07_told_you_so_v006 = {
+		{
+			id = "FG_07_told_you_so_001",
+			time = 1,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_002",
+			time = 4.13,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_003",
+			time = 5.23,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_004",
+			time = 7.16,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_005",
+			time = 8.06,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_006",
+			time = 13.06,
+			length = 4
+		},
+		{
+			id = "FG_07_told_you_so_007",
+			time = 18.08,
+			length = 4
+		}
+	}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_8()
+	self.fg_08_pumps_his_fists_v007 = {}
+end
+
+function SubtitlesTweakData:_init_debrief_failure_censored_9()
+	self.fg_09_bras_dhonneur_v006 = {
+		{
+			id = "FG_09_bras_dhonneur_001",
 			time = 1,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_failure_5()
-	self.f_05_hugs_the_world_v008 = {
+function SubtitlesTweakData:_init_debrief_failure_censored_10()
+	self.fg_10_executes_v007 = {
 		{
-			id = "F_05_hugs_the_world_001",
-			time = 1.12,
+			id = "FG_09_bras_dhonneur_001",
+			time = 8.19,
 			length = 4
 		},
 		{
-			id = "F_05_hugs_the_world_002",
-			time = 17.04,
+			id = "FG_09_bras_dhonneur_001",
+			time = 12.11,
 			length = 4
 		}
 	}
 end
 
-function SubtitlesTweakData:_init_debrief_failure_6()
-	self.f_06_tin_soldiers_v008 = {
+function SubtitlesTweakData:_init_debrief_failure_censored_11()
+	self.fg_11_sings_v007 = {
 		{
-			id = "F_06_tin_soldiers_001",
-			time = 11,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_7()
-	self.f_07_told_you_so_v008 = {
-		{
-			id = "F_07_told_you_so_001",
-			time = 1,
+			id = "FG_11_sings_001",
+			time = 8.01,
 			length = 4
 		},
 		{
-			id = "F_07_told_you_so_002",
-			time = 6.04,
-			length = 4
-		},
-		{
-			id = "F_07_told_you_so_003",
-			time = 9.18,
-			length = 4
-		},
-		{
-			id = "F_07_told_you_so_004",
-			time = 16.17,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_8()
-	self.f_08_pumps_his_fists_v008 = {}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_9()
-	self.f_09_bras_dhonneur_v008 = {
-		{
-			id = "F_09_bras_dhonneur_001",
-			time = 1,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_10()
-	self.f_10_executes_v008 = {
-		{
-			id = "F_10_executes_001",
-			time = 9.01,
-			length = 4
-		},
-		{
-			id = "F_10_executes_002",
-			time = 12.09,
-			length = 4
-		}
-	}
-end
-
-function SubtitlesTweakData:_init_debrief_failure_11()
-	self.f_11_sings_v007 = {
-		{
-			id = "F_11_sings_001",
-			time = 4.22,
-			length = 4
-		},
-		{
-			id = "F_11_sings_002",
-			time = 10.21,
+			id = "FG_11_sings_002",
+			time = 14.05,
 			length = 4
 		}
 	}

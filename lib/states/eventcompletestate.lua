@@ -11,105 +11,105 @@ EventCompleteState.LOOT_DATA_READY_KEY = "loot_data_ready"
 EventCompleteState.SUCCESS_VIDEOS = {
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_01_throws_himself_v007"
+		path = "movies/vanilla/debrief_success/censored/sg_01_throws_himself_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_02_chickens_out_v007"
+		path = "movies/vanilla/debrief_success/censored/sg_02_chickens_out_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_03_salutes_v006"
+		path = "movies/vanilla/debrief_success/censored/sg_03_salutes_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_04_shoots_and_miss_v008"
+		path = "movies/vanilla/debrief_success/censored/sg_04_shoots_and_miss_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_05_crunches_bones_v006"
+		path = "movies/vanilla/debrief_success/censored/sg_05_crunches_bones_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_06_plays_with_tin_men_v006"
+		path = "movies/vanilla/debrief_success/censored/sg_06_plays_with_tin_men_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_07_cries_tannenbaum_v007"
+		path = "movies/vanilla/debrief_success/censored/sg_07_cries_tannenbau_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_08_chess_v008"
+		path = "movies/vanilla/debrief_success/censored/sg_08_chess_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_09_is_having_a_reverie_v007"
+		path = "movies/vanilla/debrief_success/censored/sg_09_is_having_a_reverie_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_10_colours_a_map_v009"
+		path = "movies/vanilla/debrief_success/censored/sg_10_colours_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_11_swears_v005"
+		path = "movies/vanilla/debrief_success/censored/sg_11_swears_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_12_plays_with_tanks_v005"
+		path = "movies/vanilla/debrief_success/censored/sg_12_plays_with_tanks_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_13_flips_a_table_v007"
+		path = "movies/vanilla/debrief_success/censored/sg_13_flips_a_table_v005"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_success/global/s_14_moustache_v006"
+		path = "movies/vanilla/debrief_success/censored/sg_14_moustache_v006"
 	}
 }
 EventCompleteState.FAILURE_VIDEOS = {
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_01_edelweiss_v007"
+		path = "movies/vanilla/debrief_failure/censored/fg_01_edelweiss_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_02_sizzles_v007"
+		path = "movies/vanilla/debrief_failure/censored/fg_02_sizzles_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_03_toasts_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_03_toasts_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_04_misunderstands_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_04_misunderstands_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_05_hugs_the_world_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_05_hugs_the_world_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_06_tin_soldiers_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_06_tin_soldiers_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_07_told_you_so_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_07_told_you_so_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_08_pumps_his_fists_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_08_pumps_his_fists_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_09_bras_dhonneur_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_09_bras_dhonneur_v006"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_10_executes_v008"
+		path = "movies/vanilla/debrief_failure/censored/fg_10_executes_v007"
 	},
 	{
 		chance = 1,
-		path = "movies/vanilla/debrief_failure/global/f_11_sings_v007"
+		path = "movies/vanilla/debrief_failure/censored/fg_11_sings_v007"
 	}
 }
 

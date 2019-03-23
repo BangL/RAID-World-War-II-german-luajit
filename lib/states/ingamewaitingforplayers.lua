@@ -302,7 +302,7 @@ function IngameWaitingForPlayersState:show_intro_video()
 		background_color = Color.black
 	}
 	self._panel = RaidGUIPanel:new(self._full_panel, params_root_panel)
-	local video = "movies/vanilla/intro/global/01_intro_v014"
+	local video = "movies/vanilla/intro/censored/01_intro_g_v014"
 	local intro_video_params = {
 		layer = self._panel:layer() + 1,
 		video = video,

@@ -338,11 +338,11 @@ function OperationsTweakData:_init_raids()
 		},
 		tab_background_image = "ui/hud/backgrounds/tab_screen_bg_raid_flak_hud",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b2_assassination_v004"
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b2_assassination_g_v004"
 		},
 		loading = {
 			text = "menu_ger_miss_01_loading_desc",
-			image = "loading_flak"
+			image = "loading_flak_censored"
 		},
 		photos = {
 			{
@@ -406,7 +406,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "missions_raid_bank_menu",
 		icon_hud = "mission_raid_railyard",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -467,7 +467,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "mission_raid_railyard_menu",
 		icon_hud = "mission_raid_railyard",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -662,7 +662,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "missions_raid_castle_menu",
 		icon_hud = "missions_raid_castle",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -774,7 +774,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "missions_bunkers",
 		icon_hud = "missions_raid_flaktower",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -838,7 +838,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "missions_tank_depot",
 		icon_hud = "missions_raid_flaktower",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -901,7 +901,7 @@ function OperationsTweakData:_init_raids()
 		icon_menu = "missions_hunters",
 		icon_hud = "missions_raid_flaktower",
 		control_brief_video = {
-			"movies/vanilla/mission_briefings/global/02_mission_brief_b4_steal-valuables_cause-carnage_v004",
+			"movies/vanilla/mission_briefings/censored/02_mission_brief_b4_steal-valuables_cause-carnage_g_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_a2_cause-carnage_v005",
 			"movies/vanilla/mission_briefings/02_mission_brief_b1_cause-carnage_v004",
 			"movies/vanilla/mission_briefings/02_mission_brief_b5_steal-valuables_cause-carnage_v004"
@@ -970,7 +970,7 @@ function OperationsTweakData:_init_raids()
 		tab_background_image = "ui/hud/backgrounds/tab_screen_bg_raid_flak_hud",
 		loading = {
 			text = "loading_convoy",
-			image = "raid_loading_convoy"
+			image = "raid_loading_convoy_censored"
 		},
 		photos = {
 			{

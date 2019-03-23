@@ -41,7 +41,7 @@ function BootupState:setup()
 		height = res.y
 	})
 	table.insert(self._play_data_list, {
-		video = "movies/vanilla/raid_trailer_1080p_final",
+		video = "movies/vanilla/raid_trailer_1080p_final_censored",
 		can_skip = true,
 		padding = 200,
 		layer = item_layer,

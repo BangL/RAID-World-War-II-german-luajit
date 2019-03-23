@@ -2882,7 +2882,7 @@ end
 
 function GuiTweakData:_setup_menu_elements_icons()
 	self.icons.gold_bar_single = {
-		texture = "ui/elements/gold_hud",
+		texture = "ui/elements/gold_censored_hud",
 		texture_rect = {
 			0,
 			0,
@@ -2891,7 +2891,7 @@ function GuiTweakData:_setup_menu_elements_icons()
 		}
 	}
 	self.icons.gold_bar_3 = {
-		texture = "ui/elements/gold_3x_hud",
+		texture = "ui/elements/gold_3x_censored_hud",
 		texture_rect = {
 			0,
 			0,
@@ -2900,7 +2900,7 @@ function GuiTweakData:_setup_menu_elements_icons()
 		}
 	}
 	self.icons.gold_bar_box = {
-		texture = "ui/elements/gold_box_hud",
+		texture = "ui/elements/gold_box_censored_hud",
 		texture_rect = {
 			0,
 			0,
@@ -7030,7 +7030,7 @@ function GuiTweakData:_setup_mission_photos()
 	self.mission_photos = {
 		intel_bank_01 = {}
 	}
-	self.mission_photos.intel_bank_01.texture = "ui/missions/treasury/raid_atlas_photos_bank"
+	self.mission_photos.intel_bank_01.texture = "ui/missions/treasury/raid_atlas_photos_bank_censored"
 	self.mission_photos.intel_bank_01.texture_rect = {
 		2,
 		2,
@@ -7038,7 +7038,7 @@ function GuiTweakData:_setup_mission_photos()
 		288
 	}
 	self.mission_photos.intel_bank_02 = {
-		texture = "ui/missions/treasury/raid_atlas_photos_bank",
+		texture = "ui/missions/treasury/raid_atlas_photos_bank_censored",
 		texture_rect = {
 			420,
 			2,
@@ -7047,7 +7047,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bank_03 = {
-		texture = "ui/missions/treasury/raid_atlas_photos_bank",
+		texture = "ui/missions/treasury/raid_atlas_photos_bank_censored",
 		texture_rect = {
 			2,
 			292,
@@ -7056,7 +7056,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bank_04 = {
-		texture = "ui/missions/treasury/raid_atlas_photos_bank",
+		texture = "ui/missions/treasury/raid_atlas_photos_bank_censored",
 		texture_rect = {
 			2,
 			582,
@@ -7155,7 +7155,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_01 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			2,
 			2,
@@ -7164,7 +7164,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_02 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			420,
 			2,
@@ -7173,7 +7173,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_03 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			2,
 			292,
@@ -7182,7 +7182,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_04 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			2,
 			582,
@@ -7191,7 +7191,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_05 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			420,
 			292,
@@ -7200,7 +7200,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_flak_06 = {
-		texture = "ui/missions/flakturm/raid_atlas_photos_flak",
+		texture = "ui/missions/flakturm/raid_atlas_photos_flak_censored",
 		texture_rect = {
 			420,
 			582,
@@ -7380,7 +7380,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bunkers_01 = {
-		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers",
+		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers_censored",
 		texture_rect = {
 			2,
 			2,
@@ -7389,7 +7389,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bunkers_02 = {
-		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers",
+		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers_censored",
 		texture_rect = {
 			420,
 			2,
@@ -7398,7 +7398,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bunkers_03 = {
-		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers",
+		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers_censored",
 		texture_rect = {
 			2,
 			292,
@@ -7407,7 +7407,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bunkers_04 = {
-		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers",
+		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers_censored",
 		texture_rect = {
 			2,
 			582,
@@ -7416,7 +7416,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_bunkers_05 = {
-		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers",
+		texture = "ui/missions/bunkers/raid_atlas_photos_bunkers_censored",
 		texture_rect = {
 			420,
 			292,
@@ -7425,7 +7425,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_convoy_01 = {
-		texture = "ui/missions/convoy/raid_atlas_photos_convoy",
+		texture = "ui/missions/convoy/raid_atlas_photos_convoy_censored",
 		texture_rect = {
 			2,
 			2,
@@ -7434,7 +7434,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_convoy_02 = {
-		texture = "ui/missions/convoy/raid_atlas_photos_convoy",
+		texture = "ui/missions/convoy/raid_atlas_photos_convoy_censored",
 		texture_rect = {
 			420,
 			2,
@@ -7443,7 +7443,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_convoy_03 = {
-		texture = "ui/missions/convoy/raid_atlas_photos_convoy",
+		texture = "ui/missions/convoy/raid_atlas_photos_convoy_censored",
 		texture_rect = {
 			2,
 			292,
@@ -7452,7 +7452,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_convoy_04 = {
-		texture = "ui/missions/convoy/raid_atlas_photos_convoy",
+		texture = "ui/missions/convoy/raid_atlas_photos_convoy_censored",
 		texture_rect = {
 			2,
 			582,
@@ -7461,7 +7461,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_convoy_05 = {
-		texture = "ui/missions/convoy/raid_atlas_photos_convoy",
+		texture = "ui/missions/convoy/raid_atlas_photos_convoy_censored",
 		texture_rect = {
 			420,
 			292,
@@ -7587,7 +7587,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_spies_01 = {
-		texture = "ui/missions/spies/raid_atlas_photos_spies",
+		texture = "ui/missions/spies/raid_atlas_photos_spies_censored",
 		texture_rect = {
 			2,
 			2,
@@ -7596,7 +7596,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_spies_02 = {
-		texture = "ui/missions/spies/raid_atlas_photos_spies",
+		texture = "ui/missions/spies/raid_atlas_photos_spies_censored",
 		texture_rect = {
 			420,
 			2,
@@ -7605,7 +7605,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_spies_03 = {
-		texture = "ui/missions/spies/raid_atlas_photos_spies",
+		texture = "ui/missions/spies/raid_atlas_photos_spies_censored",
 		texture_rect = {
 			2,
 			292,
@@ -7614,7 +7614,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_spies_04 = {
-		texture = "ui/missions/spies/raid_atlas_photos_spies",
+		texture = "ui/missions/spies/raid_atlas_photos_spies_censored",
 		texture_rect = {
 			2,
 			582,
@@ -7623,7 +7623,7 @@ function GuiTweakData:_setup_mission_photos()
 		}
 	}
 	self.mission_photos.intel_spies_05 = {
-		texture = "ui/missions/spies/raid_atlas_photos_spies",
+		texture = "ui/missions/spies/raid_atlas_photos_spies_censored",
 		texture_rect = {
 			420,
 			292,

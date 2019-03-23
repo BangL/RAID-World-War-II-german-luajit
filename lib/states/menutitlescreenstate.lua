@@ -480,7 +480,7 @@ function MenuTitlescreenState:play_attract_video()
 		layer = tweak_data.gui.ATTRACT_SCREEN_LAYER - 1
 	})
 	self._attract_video_gui = self._full_workspace:panel():video({
-		video = "movies/vanilla/attract_video",
+		video = "movies/vanilla/attract_video_censored",
 		x = x,
 		y = y,
 		width = dest_width,

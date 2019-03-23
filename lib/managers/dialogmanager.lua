@@ -657,6 +657,10 @@ function DialogManager:_parse_line_node(node)
 		Application:error("[DialogManager][_parse_line_node] Dialog line has no sound:  ", inspect(node))
 	end
 
+	if censored then
+		sound = sound or sound .. "_cens"
+	end
+
 	return {
 		sound = sound,
 		character = node.character,

@@ -1020,7 +1020,7 @@ function MissionSelectionGui:_create_video_panels()
 end
 
 function MissionSelectionGui:_play_operations_intro_video()
-	local operations_intro_video = "movies/vanilla/operation_briefings/global/03_operation_brief_op-c3_v004"
+	local operations_intro_video = "movies/vanilla/operation_briefings/censored/03_operation_brief_op-c3_g_v004"
 	local operations_intro_video_id = tweak_data.intel:get_control_video_by_path(operations_intro_video)
 
 	if operations_intro_video_id then
@@ -1378,6 +1378,10 @@ function MissionSelectionGui:_on_raid_clicked(raid_data)
 		local short_audio_briefing_id = raid_tweak_data.short_audio_briefing_id
 
 		if short_audio_briefing_id then
+			-- Nothing
+		end
+
+		if short_audio_briefing_id then
 			managers.queued_tasks:queue("play_short_audio_briefing", self.play_short_audio_briefing, self, short_audio_briefing_id, 1, nil)
 		end
 	end
@@ -1503,6 +1507,7 @@ function MissionSelectionGui:_on_operation_selected(operation_data)
 
 		if operation_tweak_data.short_audio_briefing_id then
 			local audio_briefing_id = operation_tweak_data.short_audio_briefing_id
+			audio_briefing_id = audio_briefing_id .. "_cens"
 
 			managers.queued_tasks:queue("play_short_audio_briefing", self.play_short_audio_briefing, self, audio_briefing_id, 1, nil)
 		end
@@ -1840,6 +1845,7 @@ function MissionSelectionGui:_on_audio_clicked()
 	end
 
 	local audio_briefing_id = tweak_data.operations.missions[job_id].audio_briefing_id
+	audio_briefing_id = audio_briefing_id .. "_cens"
 
 	self:_stop_mission_briefing_audio()
 
