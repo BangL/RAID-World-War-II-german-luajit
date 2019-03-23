@@ -1,6 +1,8 @@
-# RAID-World-War-II-Luajit
+# RAID-World-War-II-German-Luajit
 
-This decomp is not 100% accurate. It still has issues here and there.
-But this is a massive improvement to what was ever made so far.
+This is the **censored** vanilla code version, which is distributed to **german** steam clients!
+for the **global** vanilla version, go here:
+https://github.com/mwSora/RAID-World-War-II-luajit
 
-Lua files in "unknown" are hashed files that my hashlist is missing.
+Use this link, to get an overview what has changed in the **censored** version, compared to the **global** version.
+https://github.com/mwSora/RAID-World-War-II-luajit/compare/master...BangL:master
